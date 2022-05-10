@@ -5,9 +5,3 @@ services:
     build: .
     ports:
       - "8080:8080"
-  app:
-    image: 'magic-mtg-spring:latest'
-    ports:
-      - "8080:8080"
-    build:
-      context: .
